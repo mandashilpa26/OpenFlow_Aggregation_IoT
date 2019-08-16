@@ -6,7 +6,7 @@ Internet of Things(IoT) is a novel technology which polls data at high frequenci
 **Installation Steps** 
 
 
-1. Install OMNet++ version 5.4.1 suitable for your Operating System. <br/> <br/>
+1. Install OMNet++ version 5.4.1 suitable for your Operating System. <br/> 
 2. Clone the github code from https://github.com/mandashilpa26/OpenFlow_Aggregation_IoT.git <br/>
 
 **Install INET** <br/>
