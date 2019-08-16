@@ -6,21 +6,21 @@ Internet of Things(IoT) is a novel technology which polls data at high frequenci
 **Installation Steps** 
 
 
-1. Install OMNet++ version 5.4.1 suitable for your Operating System.
+1. Install OMNet++ version 5.4.1 suitable for your Operating System. <br/> <br/>
 2. Clone the github code from https://github.com/mandashilpa26/OpenFlow_Aggregation_IoT.git <br/>
 
 **Install INET** <br/>
-3. Start the OMNeT++ IDE, and import the inet project via File -> Import -> Existing Projects to the Workspace. A project named INET should appear. This is Inet version 3.6.5.
+3. Start the OMNeT++ IDE, and import the inet project via File -> Import -> Existing Projects to the Workspace. A project named INET should appear. This is Inet version 3.6.5. <br/>
 4. Build with Project -> Build, or hit Ctrl+B <br/>
 
 
 **Install OpenFlow** <br/>
-5. Import the openflow project via File -> Import -> Existing Projects to the Workspace. A project named INET should appear. This is openflow code with aggregation for IoT packets.
-6, Build with Project -> Build, or hit Ctrl+B <br/>
+5. Import the openflow project via File -> Import -> Existing Projects to the Workspace. A project named INET should appear. This is openflow code with aggregation for IoT packets. <br/>
+6. Build with Project -> Build, or hit Ctrl+B <br/>
 
 
 **Run Tests** <br/>
-7. openflow/scenarios/testcases lists the initialisation files for the tests cases for this project. Run the examples with by right clicking on them.
+7. openflow/scenarios/testcases lists the initialisation files for the tests cases for this project. Run the examples with by right clicking on them. <br/>
 8. Files Aggregate-S-D.ini are files with S number of sources and D number of destinations. These files use the openflow aggregated sdwan switches. Similarly, NonAggregate-S-D.ini files contain traditional OpenFlow switches without aggregation with S sources and D destinations. <br/>
 
 
