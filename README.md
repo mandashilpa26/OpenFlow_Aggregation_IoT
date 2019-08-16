@@ -3,13 +3,11 @@
 Internet of Things(IoT) is a novel technology which polls data at high frequencies and produces packets with small payloads. IoT devices make distinct measurements thus producing heterogeneous in a small area. These densely deployed devices transmit their data through the access network to store their values on the cloud, leading to flooding of packets in the access networks. IoT networks need mechanisms to handle the scale issue in future. OpenFlow is a Software-Defined Networking(SDN) approach which separates the control plane from data plane offering centralised control. Flow aggregation gathers and aggregates data based on custom flows such as source address and destination address, port numbers. This research aims at integrating support for data aggregation in OpenFlow for communication in IoT devices. This study proposed the design of an aggregator and deaggregator located at the boundary of the access network to aggregate IoT packets from edge networks into the access network and deaggregate at the receiving end. The results of this research provide a detailed analysis of the percentage of packets reduced in the access network and the latency values observed due to aggregation and how aggregation with OpenFlow can help overcome the scale issue in IoT network.
 
 
-**Installation Steps** 
-
-
+**Installation Steps**  <br/>
 1. Install OMNet++ version 5.4.1 suitable for your Operating System. <br/> 
 2. Clone the github code from https://github.com/mandashilpa26/OpenFlow_Aggregation_IoT.git <br/>
 
-**Install INET** <br/>
+**Install INET**  <br/>
 3. Start the OMNeT++ IDE, and import the inet project via File -> Import -> Existing Projects to the Workspace. A project named INET should appear. This is Inet version 3.6.5. <br/>
 4. Build with Project -> Build, or hit Ctrl+B <br/>
 
